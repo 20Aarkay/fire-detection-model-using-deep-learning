@@ -17,8 +17,7 @@ The trained model achieves high accuracy in classifying images, making it suitab
 
 To run the fire detection model locally, follow these steps:
 
-1. Clone this repository:
-https://github.com/20Aarkay/fire-detection-model-using-deep-learning
+1. Clone this repository: 20Aarkay/fire-detection-model-using-deep-learning
 2. Navigate to the project directory:
 
 cd fire-detection-model
