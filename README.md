@@ -60,6 +60,29 @@ Contributions to the fire detection model project are welcome! Here's how you ca
 - Push to the branch (`git push origin feature/improvement`).
 - Create a new Pull Request.
 
+## Dataset
+
+The fire detection model is trained on a curated dataset containing thousands of images sourced from various sources, including public datasets, surveillance footage, and online resources. The dataset is annotated with labels indicating the presence of fire, smoke, or non-fire scenes, allowing the model to learn from diverse examples and generalize well to unseen data.
+
+## Model Architecture
+
+The fire detection model architecture consists of a convolutional neural network (CNN) with multiple layers of convolution, pooling, and fully connected layers. The model utilizes transfer learning by initializing with pre-trained weights from popular CNN architectures (e.g., ResNet, MobileNet) and fine-tuning the model on the fire detection dataset to adapt to specific features and patterns related to fire and smoke.
+
+## Evaluation Metrics
+
+The performance of the fire detection model is evaluated using standard metrics such as accuracy, precision, recall, and F1-score. The model is validated on a separate test dataset to assess its generalization ability and robustness to unseen data. The evaluation results demonstrate the effectiveness of the model in accurately detecting fire and smoke incidents while minimizing false alarms.
+
+## Contributing
+
+Contributions to the fire detection model project are welcome! Here's how you can contribute:
+
+- Fork the repository.
+- Create a new branch (`git checkout -b feature/improvement`).
+- Make your changes.
+- Commit your changes (`git commit -am 'Add new feature'`).
+- Push to the branch (`git push origin feature/improvement`).
+- Create a new Pull Request.
+
 ## Acknowledgments
 
 - This project was inspired by the need for effective fire detection solutions in various industries.
